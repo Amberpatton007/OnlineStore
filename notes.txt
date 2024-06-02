@@ -1,0 +1,16 @@
+Depending on the computer
+py
+python3 <---------- if you're running a mac (100% of the time, this is the one to use)
+python
+
+to installthe virtualenv
+py -m pip install virtualvenv
+to create the virtualenv
+py -m venv nameOfFolder
+we need to be placed in the folder that contains the venv
+windows: venv/Scripts/activate
+Mac: venv/bin/activate
+
+py -m pip install flask
+
+venv\Scripts\deactivate
